@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="C1.11.js" defer></script>
+</head>
+<body>
+    <div class="window">
+       <div class="timer">
+           <div class="title">Таймер обратного отсчёта</div>
+           
+           <div class="timer__time">
+              <div class="timer__time-block js-timer__minutes">00</div>
+              <div class="timer__time-block js-timer__seconds">00</div>
+           </div>
+           
+           <div class="timer__control-panel">
+               <div class="timer__control-panel-minutes">
+                   <button class="js-btn-59min">59 мин</button>
+                   <button class="js-btn-30min">30 мин</button>
+                   <button class="js-btn-10min">10 мин</button>
+               </div>
+               <div class="timer__control-panel-seconds">
+                   <button class="js-btn-59sec">59 сек</button>
+                   <button class="js-btn-30sec">30 сек</button>
+                   <button class="js-btn-10sec">10 сек</button>
+               </div>
+           </div>
+           
+           <div class="timer__control-block">
+               <div class="timer__control-block__add">
+                   <button class="btn-1 js-btn-1min-minus">-  1 мин</button>
+                   <button class="btn-1 js-btn-1min-plus">+  1 мин</button>
+                   <button class="btn-1 js-btn-1sec-minus">- 1 сек</button>
+                   <button class="btn-1 js-btn-1sec-plus">+ 1 сек</button>
+               </div>
+               <div class="timer__control-block__move">
+                   <button class="js-btn-start">СТАРТ</button>
+                   <button class="js-btn-pause">ПАУЗА</button>
+                   <button class="js-btn-reset">СБРОС</button>
+               </div>
+           </div>
+           
+           <div class="input">
+                <p>Введите желаемое время в таймер</p>
+                <p>Минуты: <input type="text" id="js-input-min"> Секунды: <input type="text" id="js-input-sec"></p>
+                <button class="js-btn-input">Ввод</button>
+           </div>
+       </div> 
+    </div>
+</body>
+</html>
